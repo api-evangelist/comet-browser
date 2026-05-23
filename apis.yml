@@ -1,0 +1,75 @@
+aid: comet-browser
+name: Comet
+description: Comet is Perplexity's AI-native browser built on Chromium (Blink), integrating Perplexity Search and an agentic assistant that can summarize pages, draft emails, and complete tasks. Launched July 9, 2025 on Windows and macOS, with Android (Nov 2025), iOS (Mar 2026), and visionOS support added later. Initially gated behind a paid Perplexity subscription, opened free to everyone in October 2025. This is a consumer browser product with no publicly documented REST API surface.
+image: https://www.perplexity.ai/comet/og-image.png
+tags:
+  - AI
+  - Browser
+  - Consumer
+  - Agent
+  - Chromium
+  - Search
+  - Perplexity
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+position: Consuming
+kind: contract
+access: 3rd-Party
+apis: []
+common:
+  - url: https://www.perplexity.ai/comet
+    type: Website
+  - url: https://www.perplexity.ai/comet
+    type: Product
+  - url: https://www.perplexity.ai/hub/blog/introducing-comet
+    type: LaunchAnnouncement
+  - url: https://www.perplexity.ai/
+    type: ParentCompany
+  - url: https://www.perplexity.ai/hub/blog
+    type: Blog
+  - url: https://www.perplexity.ai/hub/faq
+    type: FAQ
+  - url: https://www.perplexity.ai/hub/help
+    type: Support
+  - url: https://www.perplexity.ai/hub/legal/privacy-policy
+    type: PrivacyPolicy
+  - url: https://www.perplexity.ai/hub/legal/terms-of-service
+    type: TermsOfService
+  - url: https://www.perplexity.ai/pricing
+    type: Pricing
+  - url: https://x.com/perplexity_ai
+    type: X (Twitter)
+  - url: https://www.linkedin.com/company/perplexity-ai
+    type: LinkedIn
+  - url: https://github.com/perplexityai
+    type: GitHubOrganization
+  - type: Features
+    data:
+      - Chromium-based (Blink engine) AI-native browser
+      - Perplexity Search as default with conversational answers
+      - Built-in AI assistant for page summarization
+      - Agent Mode for booking, shopping, drafting emails, multi-step tasks
+      - Windows 10+ and macOS Big Sur+ desktop apps
+      - Android 12+ mobile app (launched Nov 20, 2025)
+      - iOS 18+ mobile app (launched Mar 18, 2026)
+      - visionOS 2.0+ support
+      - Originally Perplexity Max/Pro subscriber exclusive
+      - Free to all users as of October 2025
+      - Proprietary licensing built on Chromium open-source foundation
+      - Researchers disclosed a "CometJacking" prompt-injection vulnerability in 2025
+    sources:
+      - https://www.perplexity.ai/comet
+      - https://en.wikipedia.org/wiki/Comet_(web_browser)
+    updated: '2026-05-23'
+  - type: Notes
+    data:
+      - No public REST/GraphQL API is documented for the Comet browser itself.
+      - Perplexity's general developer/API offerings live under api.perplexity.ai (Sonar API), separate from the Comet product.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    email: info@apis.io
+  - name: Perplexity AI
+    url: https://www.perplexity.ai/

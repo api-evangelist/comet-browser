@@ -18,6 +18,10 @@ kind: contract
 access: 3rd-Party
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/comet-browser-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/comet-browser-domain-security.yml
   - url: https://www.perplexity.ai/comet
     type: Website
   - url: https://www.perplexity.ai/comet

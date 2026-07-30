@@ -1,6 +1,17 @@
 aid: comet-browser
 name: Comet
 description: Comet is Perplexity's AI-native browser built on Chromium (Blink), integrating Perplexity Search and an agentic assistant that can summarize pages, draft emails, and complete tasks. Launched July 9, 2025 on Windows and macOS, with Android (Nov 2025), iOS (Mar 2026), and visionOS support added later. Initially gated behind a paid Perplexity subscription, opened free to everyone in October 2025. This is a consumer browser product with no publicly documented REST API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.perplexity.ai/comet/og-image.png
 tags:
   - AI

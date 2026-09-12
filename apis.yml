@@ -107,3 +107,5 @@ maintainers:
     email: info@apis.io
   - name: Perplexity AI
     url: https://www.perplexity.ai/
+x-parent: perplexity
+x-relationship: product
